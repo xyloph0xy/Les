@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    color: #212121;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5%;
+    background-color: coral;
+}
+
+nav .logo h1{
+    letter-spacing: 3px;
+    background-color: pink;
+}
+
+main{
+    text-align: center;
+}
+
+main .main-img{
+    margin: 0 auto 30px auto;
+    width: 800px;    
+    height: 370px;
+    background-size: cover;
+    background-position: bottom;
+}
+main .title-main h1{
+    color: #455D89;
+}
+
+main .title-main p{
+    font-size: 20px;
+}
+
+main .hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #455D89;
+    opacity: .5;
+    margin: 30px auto 50px auto;
+}
+
+.keuntungan{
+    width: 700px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #E6EFFC;
+    margin: 0 auto;
+}
+
+.keuntungan h2{
+    margin-bottom: 15px;
+}
+
+.keuntungan h3{
+    color: #455D89;
+}
+
+.keuntungan p{
+    font-size: 15px;
+}
+
+
+.keuntungan .ke_{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.keuntungan img{
+    width: 80px;
+    margin-right: 20px;
+}
+
+.jk{
+    width: 500px;
+    margin: 70px auto;
+}
+
+.jk h2:nth-child(1), .pk h2{
+    margin-bottom: 40px;
+}
+
+
+.jk .k_{
+    width: 380px;
+    padding: 20px 0;
+    background-color: #E6EFFC;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+}
+
+.jk .k_ h3, .jk .k_ small{
+    color: #455D89;
+    font-weight: bold;
+}
+
+.jk .k_ h2{
+    display: inline;
+}
+
+.jk .k_ img{
+    width: 100px;
+    margin-right: 20px;
+}
+
+.pk{
+    width: 500px;
+    margin: 100px auto;
+}
+
+.pk .pilih{
+    display: flex;
+    justify-content: center;
+}
+
+.pk .pk_{
+    width: 160px;
+    background-color: #E6EFFC;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.pk h3{
+    color: #455D89;
+}
+
+.pk .pk_ img{
+    width: 100px;
+}
+
+
+footer{
+    padding: 40px 0;
+    text-align: center;
+}
